@@ -1,0 +1,114 @@
+body{
+    user-select: none;
+    background-color:rgb(255, 182, 209) ;
+}
+.logo{
+    width: 100px;
+}
+.calctop{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    background-color: rgb(205,8,80);
+
+}
+.home-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: gray;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s ease-in;
+    font-size: 2rem;
+}
+.home-button:hover{
+    background-color: black;   
+}
+button {
+    border:none;
+    padding: 10px;
+    
+    margin: 5px;
+}
+
+.calc-container{
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.calculator {
+    display: grid;
+    border: 2px solid black;
+    background-color: rgb(103, 103, 104);
+    padding: 20px;
+    border-radius: 10px;
+}
+.sec-numbers-container{
+    margin:5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 400px; 
+}
+.numbers-container {
+    margin:5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+}
+.numbers-container button,.sec-numbers-container button {
+    font-size: x-large;
+    background-color: rgb(2, 116, 2);
+    border-radius: 10px;
+    box-shadow: 0rem 0.2rem;
+    height: 70px;
+}
+.field {
+    display: inline-flex;
+    height: 100px;
+    background-color: white;
+    margin: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.operators-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px;
+    
+    
+}
+.operators-container button{
+    background-color: rgb(145, 3, 3);
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 0rem 0.2rem 0.2rem;
+    height: 70px;
+}
+.field{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 20px;
+    align-items: center;border-radius: 10px;
+}
+.extra-buttons {
+    display: inline-flex;
+    margin: 10px;
+
+}
+.extra-buttons button{
+    background-color: black;
+    color: red;
+    padding:10px;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    padding-bottom: 5px;
+    font-size: 1rem;
+    box-shadow: 0rem 0.1rem 0.2rem;
+
+}
